@@ -17,6 +17,7 @@ public class ValidatorTest {
         TestBean testBean = new TestBean();
 //        testBean.setId(4);
         testBean.setName("abcdefghijklmn");
+        testBean.setSgx("sg3x");
         ValidatorFactory vf = Validation.buildDefaultValidatorFactory();
         Validator validator = vf.getValidator();
         Set<ConstraintViolation<TestBean>> result =  validator.validate(testBean);
