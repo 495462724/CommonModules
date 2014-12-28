@@ -65,9 +65,13 @@
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/BeanUtils" />
     <file type="web" url="file://$PROJECT_DIR$/Configures" />
+    <file type="web" url="file://$PROJECT_DIR$/ExcelUtils" />
     <file type="web" url="file://$PROJECT_DIR$/Vfs2" />
   </component>
   <component name="IdProvider" IDEtalkID="AA629CF75875C37B0F5A5C93141505A0" />

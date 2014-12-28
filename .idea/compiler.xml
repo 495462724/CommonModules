@@ -24,6 +24,7 @@
         <processorPath useClasspath="true" />
         <module name="BeanUtils" />
         <module name="Configures" />
+        <module name="ExcelUtils" />
         <module name="Vfs2" />
       </profile>
     </annotationProcessing>
