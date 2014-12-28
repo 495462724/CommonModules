@@ -72,6 +72,7 @@
     <file type="web" url="file://$PROJECT_DIR$/BeanUtils" />
     <file type="web" url="file://$PROJECT_DIR$/Configures" />
     <file type="web" url="file://$PROJECT_DIR$/ExcelUtils" />
+    <file type="web" url="file://$PROJECT_DIR$/Validators" />
     <file type="web" url="file://$PROJECT_DIR$/Vfs2" />
   </component>
   <component name="IdProvider" IDEtalkID="AA629CF75875C37B0F5A5C93141505A0" />

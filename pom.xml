@@ -10,6 +10,7 @@
         <module>Vfs2</module>
         <module>BeanUtils</module>
         <module>ExcelUtils</module>
+        <module>Validators</module>
     </modules>
     <packaging>pom</packaging>
 
