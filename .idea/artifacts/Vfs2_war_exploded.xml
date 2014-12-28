@@ -17,7 +17,7 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="D:\Workspace\IDEAProject\CommonModules\Vfs2\target/MANIFEST.MF" />
+        <element id="file-copy" path="E:\myspace\CommonModules\Vfs2\target/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="Vfs2/web/Web" />
     </root>

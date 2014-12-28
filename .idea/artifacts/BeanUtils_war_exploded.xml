@@ -13,7 +13,7 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="D:\Workspace\IDEAProject\CommonModules\BeanUtils\target/MANIFEST.MF" />
+        <element id="file-copy" path="E:\myspace\CommonModules\BeanUtils\target/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="BeanUtils/web/Web" />
     </root>
