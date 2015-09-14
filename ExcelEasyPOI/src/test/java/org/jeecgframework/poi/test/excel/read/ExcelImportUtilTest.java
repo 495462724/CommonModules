@@ -61,6 +61,6 @@ public class ExcelImportUtilTest {
             Map.class, params);
         System.out.println(new Date().getTime() - start);
         System.out.println(list.size());
-        System.out.println(list.get(0));
+        System.out.println(list.get(1));
     }
 }

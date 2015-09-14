@@ -1,5 +1,12 @@
 package org.jeecgframework.poi.test.excel.test;
 
+import org.apache.poi.ss.usermodel.Workbook;
+import org.jeecgframework.poi.excel.ExcelExportUtil;
+import org.jeecgframework.poi.excel.entity.ExportParams;
+import org.jeecgframework.poi.excel.entity.enmus.ExcelType;
+import org.jeecgframework.poi.excel.entity.params.ExcelExportEntity;
+import org.junit.Test;
+
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -9,13 +16,6 @@ import java.util.List;
 import java.util.Map;
 
 //import org.apache.poi.hssf.usermodel.HSSFWorkbook;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.jeecgframework.poi.excel.ExcelExportUtil;
-import org.jeecgframework.poi.excel.entity.ExportParams;
-import org.jeecgframework.poi.excel.entity.enmus.ExcelType;
-import org.jeecgframework.poi.excel.entity.params.ExcelExportEntity;
-import org.jeecgframework.poi.excel.entity.vo.PoiBaseConstants;
-import org.junit.Test;
 
 public class ExcelExportForMap {
     /**
@@ -53,7 +53,7 @@ public class ExcelExportForMap {
 
             Workbook workbook = ExcelExportUtil.exportExcel(new ExportParams("测试", "测试"), entity,
                 list);
-            FileOutputStream fos = new FileOutputStream("d:/tt.xls");
+            FileOutputStream fos = new FileOutputStream("d:/tt2.xls");
             workbook.write(fos);
             fos.close();
         } catch (FileNotFoundException e) {
