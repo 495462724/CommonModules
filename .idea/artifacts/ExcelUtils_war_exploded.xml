@@ -26,7 +26,7 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="E:\myspace\CommonModules\ExcelUtils\target/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/ExcelUtils/target/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="ExcelUtils/web/Web" />
     </root>

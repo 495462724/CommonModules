@@ -24,10 +24,20 @@
         <processorPath useClasspath="true" />
         <module name="BeanUtils" />
         <module name="Configures" />
+        <module name="ExcelEasyPOI" />
         <module name="ExcelUtils" />
         <module name="Validators" />
         <module name="Vfs2" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="BeanUtils" target="1.5" />
+      <module name="CommonModules" target="1.5" />
+      <module name="Configures" target="1.5" />
+      <module name="ExcelEasyPOI" target="1.5" />
+      <module name="ExcelUtils" target="1.5" />
+      <module name="Validators" target="1.5" />
+      <module name="Vfs2" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

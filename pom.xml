@@ -11,6 +11,7 @@
         <module>BeanUtils</module>
         <module>ExcelUtils</module>
         <module>Validators</module>
+        <module>ExcelEasyPOI</module>
     </modules>
     <packaging>pom</packaging>
 
